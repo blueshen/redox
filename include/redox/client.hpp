@@ -18,7 +18,8 @@
 * limitations under the License.
 */
 
-#pragma once
+#ifndef REDOX_REDOX_CLIENT_H_
+#define REDOX_REDOX_CLIENT_H_
 
 #include <iostream>
 #include <functional>
@@ -449,3 +450,5 @@ template <class ReplyT> Command<ReplyT> &Redox::commandSync(const std::vector<st
 }
 
 } // End namespace redis
+
+#endif

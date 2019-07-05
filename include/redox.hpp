@@ -18,8 +18,11 @@
 * limitations under the License.
 */
 
-#pragma once
+#ifndef REDOX_REDOX_H_
+#define REDOX_REDOX_H_
 
 #include "redox/client.hpp"
 #include "redox/command.hpp"
 #include "redox/subscriber.hpp"
+
+#endif

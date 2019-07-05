@@ -18,7 +18,8 @@
 * limitations under the License.
 */
 
-#pragma once
+#ifndef REDOX_REDOX_COMMAND_H_
+#define REDOX_REDOX_COMMAND_H_
 
 #include <string>
 #include <functional>
@@ -167,3 +168,5 @@ private:
 };
 
 } // End namespace redis
+
+#endif

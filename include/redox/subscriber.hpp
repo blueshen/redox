@@ -18,7 +18,8 @@
 * limitations under the License.
 */
 
-#pragma once
+#ifndef REDOX_REDOX_SUBSCRIBER_H_
+#define REDOX_REDOX_SUBSCRIBER_H_
 
 #include "client.hpp"
 
@@ -170,3 +171,5 @@ private:
 };
 
 } // End namespace
+
+#endif

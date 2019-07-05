@@ -39,3 +39,6 @@ TODO.md
 # Eclipse
 .cproject
 .project
+
+#clion
+cmake-build-debug

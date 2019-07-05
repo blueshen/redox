@@ -5,7 +5,8 @@
 *   http://vilipetek.com/2014/04/17/thread-safe-simple-logger-in-c11/
 */
 
-#pragma once
+#ifndef REDOX_REDOX_UTILS_LOGGER_H_
+#define REDOX_REDOX_UTILS_LOGGER_H_
 
 #include <string>
 #include <sstream>
@@ -79,3 +80,5 @@ private:
 
 } // End namespace
 } // End namespace
+
+#endif
